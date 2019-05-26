@@ -1,0 +1,399 @@
+body,
+html {
+    margin: 0;
+    overflow: auto;
+    WIDTH: 100%
+}
+
+main {
+    overflow-y: auto;
+    WIDTH: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+form {
+    width: 60%
+}
+
+button {
+    background-color: #f66;
+    color: #131313
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+    color: #131313;
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fa-binoculars,
+.fa-calendar-alt,
+.fa-laugh-beam {
+    font-size: 150px;
+    color: #f66;
+    padding: 4%, 0
+}
+
+.fa-bars {
+    color: #fff
+}
+
+nav {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff
+}
+
+#foodie-nav {
+    z-index: 20;
+    background-color: #131313;
+    color: #fff;
+    align-items: center;
+    padding: 0;
+}
+
+#foodie-nav a {
+    text-decoration: none;
+    margin: 0 0;
+    padding: .25vw 1vw;
+    margin: 20px, 10px
+}
+
+a:visited {
+    text-decoration: none
+}
+
+#foodie-nav .logo {
+    height: 50px
+}
+
+.img.rounded-circle {
+    width: 150px;
+    height: 150px
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.section-00 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: url(../img/laughing02.jpg) no-repeat center;
+    height: 50vh;
+    width: 100%;
+    background-image: 100% auto;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.section-04 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: url(../img/food_top.jpg) no-repeat center top;
+    height: 50vh;
+    width: 100%;
+    background-image: 100% auto;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+h1 {
+    font-weight: 800;
+    font-size: calc(12pt + 8vw);
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    text-shadow: 7px 2px 20px #000
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    font-size: calc(12pt + 4vw);
+    font-family: Raleway, sans-serif;
+    text-shadow: 0 0 25px #000;
+    -webkit-font-smoothing: antialiased
+}
+
+h3 {
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    font-size: calc(12pt + 2vw);
+    font-weight: 500;
+    text-align: center;
+    -webkit-font-smoothing: antialiased
+}
+
+h4 {
+    color: #131313;
+    font-family: Raleway, sans-serif;
+    font-size: calc(12pt + 1vw);
+    font-weight: 500;
+    text-align: center;
+    -webkit-font-smoothing: antialiased
+}
+
+.text-shadow {
+    text-shadow: 0 0 25px #000
+}
+
+p {
+    color: #131313;
+    font-family: Raleway, sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    text-align: center;
+    -webkit-font-smoothing: antialiased
+}
+
+hr {
+    display: block;
+    height: 0;
+    background-color: #fff;
+    border: .5px solid #fff;
+    width: 60vw;
+    -webkit-box-shadow: 10px 3px 5px 0 rgba(0, 0, 0, .75);
+    -moz-box-shadow: 10px 3px 5px 0 rgba(0, 0, 0, .75);
+    box-shadow: 10px 3px 5px 0 rgba(0, 0, 0, .75)
+}
+
+.c01 {
+    background: url(https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5232386545001_5215063851001-vs.jpg?pubId=5104226627001&videoId=5215063851001);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.c02 {
+    background: url(https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Greece/Santorini/Santorini%20lead-xlarge.jpg);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.c03 {
+    background: url(https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/turkey/istanbul/istanbul-guide-lead-xlarge.jpg);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.c04 {
+    background: url(https://www.riotgames.com/darkroom/1440/b2b587d91d3c5d2922953ac62fbb2cb8:dfd0d5c2d07f981fb8cda29623b5e54e/paris.jpg);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.c05 {
+    background: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/11/27/09/istock-627304216.jpg);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.c06 {
+    background: url(https://assets1b.milkeninstitute.org/assets/Events/Conferences/Summit/2018/_resampled/FillWyIxOTgwIiwiMTI1MCJd/london-2393098-1920.jpg);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.c07 {
+    background: url(https://braincity.berlin/fileadmin/berlin-wissenschaftslandschaft-science-wuestenhagen-1920.jpg);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.c08 {
+    background: url(http://www.mujournalismabroad.com/uploads/6/8/7/2/6872965/1541252_orig.jpg);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+.c09 {
+    background: url(https://www.riotgames.com/darkroom/1440/e729557d83532c5777833a6b883e1969:49a8674cebb9aff914c6e48eab863f0f/shutterstock-599314052.jpg);
+    background-image: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center
+}
+
+#myfooter {
+    width: 100%
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.
+}
+
+#banner2 a:hover,
+#destinations a:hover,
+#foodie-nav a:hover,
+#foodiesearch a:hover,
+#how-it-works a:hover,
+#myFooter a:hover,
+#team-members a:hover {
+    color: #f66;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.social-icons {
+    font-size: 50px!important;
+    color: #131313;
+    justify-content: space-evenly
+}
+
+.black {
+    color: #000;
+    border: #000
+}
+
+.white {
+    color: #fff
+}
+
+.margin-t-1 {
+    margin-top: 3vh
+}
+
+.margin-b-1 {
+    margin-bottom: 3vh
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    -webkit-font-smoothing: antialiased;
+    padding: 1%;
+    margin: 10px
+}
+
+.heart {
+    margin: 1%;
+    display: flex;
+    text-align: left;
+    color: #f66
+}
+
+.heart:hover {
+    text-decoration: none;
+    text-shadow: 0 0 20px red
+}
+
+.cards-wrapper {
+    display: flex;
+    margin-bottom: 30px
+}
+
+#myfooter li {
+    margin: 0;
+    text-align: left
+}
+
+.functionfadein {
+    animation: fadein 2s linear backwards
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+nav.row {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+#foodiesearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5%;
+    z-index: 10
+}
+
+.how-it {
+    display: flex;
+    justify-content: space-between
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 4px 32px -16px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0 4px 32px -16px rgba(0, 0, 0, 1);
+    box-shadow: 0 4px 32px -16px rgba(0, 0, 0, 1)
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem
+}
+
+.copyright {
+    font-weight: 500;
+    font-size: 12t;
+    color: rgb(19, 19, 19);
+    background-color: white;
+}
